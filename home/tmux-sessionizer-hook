@@ -1,0 +1,11 @@
+# Sourced by ~/scripts/tmux-sessionizer (its hydrate() function) into the first
+# window of a *newly created* session -- not when switching to one that already
+# exists, so this runs once per project.
+#
+# tmux created the window with -c <project>, so the cwd is already the selected
+# project and `nvim .` lands in it.
+#
+# Any project can override this by dropping its own .tmux-sessionizer at its
+# root; hydrate() prefers the project-local file over this one.
+
+nvim .

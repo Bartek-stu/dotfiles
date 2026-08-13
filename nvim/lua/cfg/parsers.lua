@@ -1,0 +1,30 @@
+-- Treesitter parsers to keep installed.
+return {
+    'lua',
+    'vim',
+    'vimdoc',
+    'query',
+    'bash',
+    'markdown',
+    'markdown_inline',
+    -- languages with an LSP configured in plugins/lsp.lua
+    'rust',
+    'go',
+    'gomod',
+    'gosum',
+    'gowork',
+    'c',
+    'cpp',
+    'c_sharp',
+    'kotlin',
+    'typescript',
+    'tsx',
+    'javascript',
+    'swift',
+    'python',
+    -- config/markup these projects carry along
+    'json',
+    'toml',
+    'yaml',
+    'xml',
+}

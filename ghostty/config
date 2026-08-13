@@ -1,0 +1,26 @@
+custom-shader = shaders/cursor_smear_gradient_original.glsl
+
+# Do not add `background`/`foreground` here — they override the theme's colors.
+theme = "TokyoNight Night"
+
+background-opacity = 0.85
+background-blur = 20
+
+macos-non-native-fullscreen = true
+macos-option-as-alt = true
+
+minimum-contrast = 1.15
+faint-opacity = 0.65
+
+# Replaces the deprecated bold-is-bright.
+bold-color = bright
+
+unfocused-split-opacity = 0.9
+
+window-height = "29"
+window-width = "110"
+quick-terminal-position = "center"
+font-family = "Intel One Mono Regular"
+font-size = 14
+window-padding-x = 9
+cursor-style = "underline"

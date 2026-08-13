@@ -1,0 +1,11 @@
+# install.sh copies this to tmux-sessionizer.conf on first run. That copy is
+# gitignored, so each machine can point at its own project directories without
+# the repo carrying one machine's paths.
+#
+# Without any conf, upstream defaults to (~/ ~/personal ~/personal/dev/env/.config).
+#
+#   TS_SEARCH_PATHS        replaces the defaults outright
+#   TS_EXTRA_SEARCH_PATHS  appends to them, a :N suffix sets depth for that path
+#   TS_MAX_DEPTH           depth for paths with no :N suffix (default 1)
+
+TS_SEARCH_PATHS=(~/Developer/Projects)
